@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: CoffeMachine
+  host: CoffeMachine
+  disk_quota: 1024M
+  services:
+  - CoffeMachine-ibm-iot-for-electronics
+  - CoffeMachine-iotf-service
+  - CoffeMachine-AdvancedMobileAccess
